@@ -1,3 +1,86 @@
-body{
-    background-color: aqua;
+body {
+    margin:0;
+    padding:0;
+}
+.main{
+    margin: 110px 30px 50px;
+    border: 1px solid #111;
+    padding: 20px 10px;
+    border-radius:10px;
+}
+h1{
+    margin:0;
+    padding:0;
+}
+.display{
+     width:100%;
+     box-sizing:border-box ;
+     height: 80px;
+     border: 1px solid #111;
+     background-color:#6b6b6b;
+     padding:10px 10px ;
+     color:#fff;
+     border-radius: 10px;
+     
+ }
+.display h1{
+    float:right;
+}
+.col-2{
+    display:flex;
+    justify-content:space-between;
+    margin:20px 0;
+}
+.val-sys{
+    width:48%;
+    border: 1px solid #111;
+    border-radius:10px;
+    height:50px;
+    text-align:center ;
+    box-shadow: -5px 5px 3px #888888
+}
+.val-display{
+    margin: 10px 0;
+}
+.col-4{
+    display:flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.val{
+    width: 20%;
+    height:50px;
+    padding: 10px auto ;
+    border: 1px solid #111;
+    box-sizing:border-box;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: -5px 5px 3px #888888;
+    
+}
+.val:onclick{
+    background-color:green;
+}
+.sign{
+    background:yellow;
+}
+.clear{
+    background:red;
+}
+
+.about-img{
+    width:100%;
+    height: 150px;
+    background: url("https://pbs.twimg.com/profile_images/1435330121561300994/_ydGI4U9.jpg");
+    background-size:contain;
+    position:relative;
+}
+.about-img img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    position:absolute ;
+    bottom : -50px;
+    left:130px;
+    
 }

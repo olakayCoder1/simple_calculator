@@ -1,12 +1,76 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>start assignment project</h1>
-</body>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Page Title</title>
+    </head>
+    <body>
+    
+    
+    
+    
+        <div class="creator">
+            <div class="about-img">
+                
+                <img src="https://avatars.githubusercontent.com/u/95700260?s=400&u=8a038fc4fa00588887195b84026eb610c9213b4f&v=4">
+            </div>
+            
+        </div>
+    
+    
+        <div class="main">
+            <div class="display">
+                <h1 id="display"></h1>
+            </div>
+            
+            <div  class="col-2">
+                <div class="val-sys clear" onclick="cancel()"><h3>Clear</h3></div>
+                <div class="val-sys" onclick="deleteval()"><h3>Delete</h3></div>
+            </div>
+            <div class="val-display">
+                <div class="col-4">
+                    <div class="val" onclick="display(7)"><h1>7</h1></div>
+                    <div class="val" onclick="display(8)"><h1>8</h1></div>
+                    <div class="val" onclick="display(9)"><h1>9</h1></div>
+                    <div class="val sign" onclick="sign('÷')"><h1>÷</h1></div>
+                </div>
+                
+                
+                <div class="col-4">
+                    <div class="val" onclick="display(4)"><h1>4</h1></div>
+                    <div class="val" onclick="display(5)"><h1>5</h1></div>
+                    <div class="val" onclick="display(6)"><h1>6</h1></div>
+                    <div class="val sign" onclick="sign('*')"><h1>×</h1></div>
+                </div>
+                
+                
+                <div class="col-4">
+                    <div class="val" onclick="display(1)"><h1>1</h1></div>
+                    <div class="val" onclick="display(2)"><h1>2</h1></div>
+                    <div class="val" onclick="display(3)"><h1>3</h1></div>
+                    <div class="val sign" onclick="sign('-')"><h1>-</h1></div>
+                </div>
+                
+                
+                <div class="col-4">
+                    <div class="val" onclick="display('.')"><h1>.</h1></div>
+                    <div class="val" onclick="display(0)"><h1>0</h1></div>
+                    <div class="val" onclick="result()"><h1>=</h1></div>
+                    <div class="val sign" onclick="sign('+')"><h1>+</h1></div>
+                </div>
+            </div>
+        </div>
+        
+        
+            <div class="about-img">
+                
+            </div>
+            
+        
+        
+    </body>
 </html>
